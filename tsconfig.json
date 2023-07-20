@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ES2017"],
+    "jsx": "react-native",
+    "isolatedModules": true,
+    "noUnusedLocals": true,
+    "moduleResolution": "Node",
+    "baseUrl": "packages",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["./packages"]
+}
