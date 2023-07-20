@@ -1,0 +1,11 @@
+{
+  "name": "@finetiks/prettier-config-preset",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ]
+}

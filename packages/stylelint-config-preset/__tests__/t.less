@@ -1,0 +1,45 @@
+.login {
+  display: flex;
+  min-height: 100vh;
+  overflow: hidden;
+
+  .bg {
+    position: relative;
+    flex: 1;
+    background: url('https://');
+
+    .sloganBox {
+      position: absolute;
+      bottom: 10vh;
+      left: 12.7%;
+      color: #ffffff;
+    }
+
+    .slogan {
+      margin-bottom: 5px;
+      font-size: 24px;
+    }
+
+    .sloganEn {
+      font-size: 12px;
+      opacity: 0.65;
+    }
+  }
+
+  .loginBox {
+    position: relative;
+    display: flex;
+    flex: 1.618;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+  }
+
+  :global(.ant-input) {
+    width: 80px;
+
+    :local(.text) {
+      width: 20px;
+    }
+  }
+}

@@ -1,11 +1,25 @@
 {
   "name": "root",
   "private": true,
-  "license": "MIT",
+  "license": "ISC",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean --yes",
+    "l-changed": "lerna changed",
+    "l-publish": "lerna publish",
+    "l-publish-package": "lerna publish from-package",
+    "lint": "eslint packages --fix --ext .js",
+    "lint:ts": "tsc --noEmit && eslint packages --ext .ts,.tsx",
+    "prettier": "prettier --write 'packages/**/*.{js,json,yml,yaml,css,scss,less,ts,tsx,md}'",
+    "commit": "npx git-cz",
+    "test:eslint-config-preset": "ts-node ./packages/eslint-config-preset/__tests__/app.ts"
+  },
   "devDependencies": {
+    "@types/clean-css": "^4.2.6",
     "@types/eslint": "^8.44.0",
     "@types/prettier": "^2.7.3",
     "@types/react": "^18.2.15",
+    "clean-css": "^5.3.2",
     "react": "^18.2.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"

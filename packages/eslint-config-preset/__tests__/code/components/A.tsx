@@ -7,7 +7,7 @@ interface AProps {
 }
 
 const A: React.FC<AProps> = () => {
-  return <p>A</p>
+  return <p>A</p>;
 };
 
 export default A;

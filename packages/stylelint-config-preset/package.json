@@ -1,0 +1,22 @@
+{
+  "name": "@finetiks/stylelint-config-preset",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "postcss-less": "^6.0.0",
+    "prettier": "^3.0.0",
+    "stylelint": "^15.10.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^4.0.0"
+  }
+}
